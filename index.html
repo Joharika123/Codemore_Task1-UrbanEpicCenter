@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrbanEpicenter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        h1 {
+            font-family: 'cursive', sans-serif; /* Use cursive font */
+            color: #4CAF50; /* Set a good color */
+            margin: 0; /* Remove default margin */
+            padding: 10px 0; /* Add padding for spacing */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>UrbanEpicenter</h1>
+        <p class="site-description">Discover the latest trends in fashion, electronics, and more at UrbanEpicenter. We strive to bring you high-quality products with exceptional customer service.</p>
+        <nav>
+            <ul>
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#products"><i class="fas fa-th-large"></i> Products</a></li>
+                <li><a href="#about"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Welcome to our store</h2>
+            <p>Find the best products here!</p>
+        </section>
+        <section id="products">
+            <h2>Our Products</h2>
+            <div class="product-list">
+                <!-- Products will be inserted here dynamically -->
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Learn more about our store and our story.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 UrbanEpicenter</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
